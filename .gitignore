@@ -1,0 +1,109 @@
+################################################################################
+# MacOS - https://raw.githubusercontent.com/github/gitignore/main/Global/macOS.gitignore
+################################################################################
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+################################################################################
+# VIM - https://github.com/github/gitignore/blob/main/Global/Vim.gitignore
+################################################################################
+
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+################################################################################
+# Tags - https://github.com/github/gitignore/blob/main/Global/Tags.gitignore
+################################################################################
+
+TAGS
+.TAGS
+!TAGS/
+tags
+.tags
+!tags/
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+GSYMS
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
+
+# Gutentags (Vim plugin) temp files
+*.tags
+tags.lock
+tags.temp
+
+tags.log
+
+################################################################################
+# Starscope
+################################################################################
+
+.starscope.db
+
+################################################################################
+# JetBrains
+################################################################################
+
+.idea/
+
+################################################################################
+# Visual Studio Code
+################################################################################
+
+.vscode/
+
+################################################################################
+# Vimspector
+################################################################################
+
+.vimspector/
+.vimspector.json
+.vimspector.session
+.gadgets.json
+
